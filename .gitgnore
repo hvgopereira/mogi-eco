@@ -1,0 +1,38 @@
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Diretórios de Dependências
+node_modules/
+
+# Diretórios de Build
+dist/
+build/
+
+# Arquivos de Ambiente
+.env
+
+# Configurações do Editor de Código
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos Temporários
+*.tmp
+*.temp
+
+# Outros
+*.bak
+*.swp
+
+# Ignorar dependências de pacotes
+package-lock.json
+yarn.lock
+
+# Ignorar arquivos de bundlers (se estiver usando Webpack ou Parcel)
+.cache/
+.parcel-cache/
