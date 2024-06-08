@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
    margin: 0;
    padding: 0;
@@ -7,12 +9,60 @@
 
    text-decoration: none;
    list-style-type: none;
+   
 }
 
 :root {
    font-size: 62.5%;
+   --bg-primary: ;
 }
 
 body {
+   font-family: "Lato", sans-serif;
    font-size: 1.6rem;
+   background: rgb(245, 255, 243);
+   background: black;
+}
+
+main {
+   height: 100vh;
+   width: 100vw;
+
+}
+
+.slide-img {
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+}
+
+.slide-img-1 {
+   background-image: url('../images/bg-mogieco-darkgreen.jpg');
+}
+
+.slide-img-2 {
+   background-image: url('../images/bg-slogan-forestgreen.jpg');
+}
+
+.slide-img-3 {
+   background-image: url('../images/logo-mogieco-texto-png.png');
+}
+   
+.slide-img {
+   width: 100%;
+   height: 100%;
+}
+
+.swiper {
+   height: 400px;
+   width: 100%;
+   
+}
+
+.swiper-slide {
+   width: 100%;
+   /* text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center; */
 }
