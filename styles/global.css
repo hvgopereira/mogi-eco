@@ -10,6 +10,7 @@
    text-decoration: none;
    list-style-type: none;
    
+   /* cursor: none; */
    
 }
 
@@ -49,19 +50,19 @@ main {
 }
 
 .slide-img-1 {
-   width: 400px;
+   /* width: 400px; */
    
    background-size: cover;
    background-position: center center;
-   background-image: url('../images/bg-mogieco-darkgreen.jpg');
+   background-image: url('../images/slide1-home.jpg');
 }
 
 .slide-img-2 {
-   width: 400px;
+   /* width: 400px; */
    
    background-size: cover;
    background-position: center center;
-   background-image: url('../images/bg-slogan-forestgreen.jpg');
+   background-image: url('../images/slide2-home.jpg');
 }
 
 .slide-img-3 {
@@ -69,11 +70,11 @@ main {
    
    background-size: cover;
    background-position: center center;
-   background-image: url('../images/logo-mogieco-texto-png.png');
+   background-image: url('../images/slide3-home.jpg');
 }
 
 .swiper {
-   height: 500px;
+   height: 71%;
    width: 100%;
    background: black;   
    
@@ -88,22 +89,23 @@ main {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 2rem;
+  bottom: 7%;
   z-index: 999;
 
   cursor: none;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 3.6rem;
 
 }
 
 .btn-home-wrapper a button {
    font-family: 'Inter', sans-serif;
-   font-weight: 500;
+   /* font-family: "Lato"; */
+   font-weight: 600;
    font-size: 1.8rem;
    width: 35rem;
-   height: 7rem;
+   height: 8rem;
 
    text-transform: capitalize;
 
@@ -118,8 +120,52 @@ main {
    font-size: 1.4rem;
 }
 
-.btn-home-wrapper h5 > a {
+.btn-home-wrapper h4 > a {
    color: #007BFF;
-   font-style: oblique;
+   font-size: 17px;
+   /* font-style: oblique; */
+}
 
+.btn-home {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+
+   position: relative;
+
+}
+
+.btn-home > span {
+   font-size: 32px;
+}
+
+.material-symbols-outlined{
+   position: absolute;
+   left: 250px;
+   font-size: 40px;
+
+   animation: rightSlide 2.5s infinite;
+}
+
+
+.login-home {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   gap: 0.4rem;
+}
+
+
+@keyframes rightSlide {
+   0% {
+      margin-left: 0px;
+   }
+   50% {
+      margin-left: 8px;
+   }
+   100% {
+      margin-left: 0;
+   }
 }
