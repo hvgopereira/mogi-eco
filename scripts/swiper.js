@@ -6,8 +6,8 @@ var swiper = new Swiper(".swiper", {
       clickable: true,
    },
    keyboard: true,
-   // autoplay: {
-   //    delay: 3500,
-   //    disableOnInteraction: false,
-   // }
+   autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
+   }
  })

@@ -27,20 +27,21 @@ body {
 }
 
 .text-greet {
-   margin-bottom: 4rem;
+   margin-bottom: 3rem;
    margin-top: 4rem;
 }
 
 .text-greet > h1 {
    font-family: "Lato", sans-serif;
-   font-size: 3.2rem;
+   font-size: 3.5rem;
    font-weight: 900;
 }
 
 .text-greet > .subtitle-greet {
-   font-family: "Inter", sans-serif;
+   /* font-family: "Inter", sans-serif; */
+   font-family: "Lato", sans-serif;
    line-height: 2.5rem;
-   font-weight: 500;
+   font-weight: 600;
    font-size: 1.6rem;
 
    color: #515050;
@@ -53,6 +54,12 @@ label {
    display: block;
    margin-top: 1rem;
    color: #545454;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
 }
 
 input[type="text"],
@@ -93,14 +100,19 @@ input[type="password"] {
 
 .btn-submit {
    width: 100%;
+   height: 5rem;
    padding: 1rem;
-   margin-top: 1.5rem;
+   margin-top: 2.5rem;
    background-color: #2e7d32;
    border: none;
    color: white;
    border-radius: 4px;
    font-size: 1rem;
    cursor: pointer;
+
+   font-family: "Lato", sans-serif;
+   font-size: 2rem;
+   font-weight: 700;
 }
 
 .btn-submit:hover {
@@ -139,4 +151,17 @@ input[type="password"] {
 .form-content.error span {
    color: #f63d28;
    visibility: visible;
+}
+
+
+.div-log-with {
+   position: relative;
+
+   color: #515050;
+   height: 2px;
+   width: 100%;
+}
+
+.div-log-with > h5 {
+   position: absolute;
 }
