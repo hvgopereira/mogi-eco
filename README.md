@@ -1,17 +1,27 @@
-<img width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/75c55cd8-2662-4f8c-bafc-155daa4ca0cc" alt="Logo MogiEco"> </img>
-<img align="right" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/f86337f2-3663-4afb-bcba-c8fb5cf45b66"> </img>
+<div align="center">
+ <img align="left" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/75c55cd8-2662-4f8c-bafc-155daa4ca0cc" alt="Logo MogiEco"> </img>
+ <img title="Logo Hugo Pereira" src="https://github.com/hvgopereira/hvgopereira/assets/162385532/180107d8-0fd5-4f6a-8d0f-76191171b2ad" min-width="150px" max-width="150px" width="150px" align="center" alt="Logo Hugo Pereira"/>
+ <img align="right" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/f86337f2-3663-4afb-bcba-c8fb5cf45b66"> </img>
+</div>
+
+
 <h6> Projeto iniciado em Junho/2024</h6>
 
  Mogi Eco é um projeto/protótipo em desenvolvimento de um aplicativo/site móvel com o objetivo principal de desenvolver a ideia concebida por Hugo Pereira, aluno do primeiro semestre de Análise e Desenvolvimento de Sistemas (ADS). A iniciativa nasceu da necessidade identificada pela Secretaria do Meio Ambiente de Mogi das Cruzes, em parceria com a Universidade Braz Cubas, de buscar soluções inovadoras para a preservação ambiental na região.
 
  <h5 align="center"><strong> O foco central do projeto é o desenvolvimento visual da idéia </strong>(Desenvolvido em Html, Css e JavaScript por melhor conhecimento, poderá tornar-se um app atráves do Cordova).</h5>
 
-<div style="display: inline-block;">
+##
+
+<div align="center">
 <!--  <img align="center" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/fc76c3ce-6053-4676-9b19-e41481b344b2"> -->
-<!--  <img align="left" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/399dbfe6-7dc5-46ad-a093-29bad224cdc9"> -->
-<!--  <img align="right" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/f345104e-a255-4f69-9507-f0dbacc87fe3"> -->
+ <img align="left"  width="250px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/2b5b44a7-d0a5-460e-87d3-aa296a437d51">
+ <img align="center" width="250px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/399dbfe6-7dc5-46ad-a093-29bad224cdc9">
+ <img align="right" width="250px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/f345104e-a255-4f69-9507-f0dbacc87fe3">
  
 </div>
+
+##
 
 ## Motivação
 
