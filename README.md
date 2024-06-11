@@ -4,6 +4,7 @@
  <img align="right" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/f86337f2-3663-4afb-bcba-c8fb5cf45b66"> </img>
 </div>
 
+##
 
 <h6> Projeto iniciado em Junho/2024</h6>
 
