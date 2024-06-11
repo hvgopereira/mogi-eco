@@ -35,7 +35,7 @@ body {
 }
 
 .text-greet {
-   margin-bottom: rem;
+   margin-bottom: 1.5rem;
    margin-top: 2.5rem;
 }
 
@@ -225,18 +225,17 @@ input[type="password"] {
 }
 
 .log-with > img{
-   width: 4rem;
 }
 
 .log-with > #google {
    background: rgba(255, 185, 185, 0.349);
-   width: 5.7rem;
+   width: 6.3rem;
    padding: 1rem;
    border-radius: 16px;
 }
 
 .log-with > #facebook {
-   width: 5.7rem;
+   width: 6.3rem;
    margin-bottom: 0.1rem;
 
    background: rgba(124, 200, 255, 0.308);
@@ -244,10 +243,10 @@ input[type="password"] {
 }
 
 .log-with > #apple {
-   width: 5.6rem;
+   width: 6.3rem;
    filter: invert();
 
-   background: #f4f4f4;
+   background: #ffffff;
    border-radius: 16px;
    padding: 1rem;
 }
