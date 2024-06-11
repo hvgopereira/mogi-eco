@@ -1,6 +1,7 @@
 body {
    font-size: 1.6rem;
    padding: 2.8rem 2rem;
+   overflow-x: hidden;
    background: var(--bg-secondary);
 }
 
@@ -14,37 +15,44 @@ body {
    align-items: center;
 }
 
-.back-arrow > .material-symbols-outlined {
-   font-size: 3rem;
+.back-arrow span {
+   font-size: 10.5;
+   color: #585858;
+   background: #ffffff;
+   border: 1.5px solid #3535355c;
+
+   border-radius: 30px;
+   padding: 0.8rem;
 }
 
 .back-arrow > .title-register {
-   font-family: "Lato", sans-serif;
-   font-weight: 900;
-   font-size: 2.4rem;
+   font-family: "Inter", sans-serif;
+   font-weight: 800;
+   font-size: 2.3rem;
 
-   text-transform: uppercase;
+   /* text-transform: uppercase; */
+   text-transform: capitalize;
 }
 
 .text-greet {
-   margin-bottom: 3rem;
-   margin-top: 4rem;
+   margin-bottom: rem;
+   margin-top: 2.5rem;
 }
 
 .text-greet > h1 {
-   font-family: "Lato", sans-serif;
+   font-family: "Inter", sans-serif;
    font-size: 3.5rem;
-   font-weight: 900;
+   font-weight: 800;
 }
 
 .text-greet > .subtitle-greet {
    /* font-family: "Inter", sans-serif; */
-   font-family: "Lato", sans-serif;
-   line-height: 2.5rem;
+   font-family: "Inter", sans-serif;
+   line-height: 3.2rem;
    font-weight: 600;
    font-size: 1.6rem;
 
-   color: #515050;
+   color: #7f7f7f;
 }
 
 label {
@@ -69,7 +77,7 @@ input[type="password"] {
    font-weight: 600;
 
    width: 100%;
-   padding: 1.3rem;
+   padding: 1.5rem;
    margin-top: 0.8rem;
    border: 2px solid #c2c2c2;
    border-radius: 5px;
@@ -95,24 +103,38 @@ input[type="password"] {
    top: 35%;
    /* transform: translateY(-50%); */
    cursor: pointer;
-   color: #6e6e6e;
+   color: #3f3f3f;
 }
 
 .btn-submit {
    width: 100%;
-   height: 5rem;
+   height: 6.5rem;
    padding: 1rem;
-   margin-top: 2.5rem;
+   margin-top: 1.5rem;
    background-color: #2e7d32;
    border: none;
    color: white;
-   border-radius: 4px;
+   border-radius: 1rem;
    font-size: 1rem;
    cursor: pointer;
 
-   font-family: "Lato", sans-serif;
+   font-family: "Inter", sans-serif;
    font-size: 2rem;
-   font-weight: 700;
+   font-weight: 500;
+}
+
+.login-home {
+   font-family: "Inter", sans-serif;
+   text-align: center;
+   margin-top: 1.5rem;
+   font-size: 1.5rem;
+
+   color: #787878;
+   font-weight: 600;
+}
+
+.login-home a {
+   color: var(--link-txt);
 }
 
 .btn-submit:hover {
@@ -153,15 +175,80 @@ input[type="password"] {
    visibility: visible;
 }
 
-
-.div-log-with {
+.login-with-wrapper {
    position: relative;
 
-   color: #515050;
-   height: 2px;
-   width: 100%;
+
+   margin-top: 1rem;
 }
 
-.div-log-with > h5 {
+.div-log-with {
+   margin-top: 2rem;
+   /* position: relative; */
    position: absolute;
+
+   background: #51505065;
+   border-radius: 20px;
+   height: 1px;
+   width: 100%;
+
 }
+
+.log-with-txt {
+   font-size: 1.3rem;
+   font-family: "Inter", sans-serif;
+
+   left: 50%;
+   transform: translateX(-50%);
+
+   margin-top: 1.3rem;
+   background: white;
+   padding: 0 1.5rem;
+
+   z-index: 99;
+   position: absolute;
+
+   color: rgba(84, 84, 84, 0.734);
+}
+
+.log-with-txt > div {
+  
+}
+
+.log-with {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4rem;
+
+   margin-top: 7rem;
+}
+
+.log-with > img{
+   width: 4rem;
+}
+
+.log-with > #google {
+   background: rgba(255, 185, 185, 0.349);
+   width: 5.7rem;
+   padding: 1rem;
+   border-radius: 16px;
+}
+
+.log-with > #facebook {
+   width: 5.7rem;
+   margin-bottom: 0.1rem;
+
+   background: rgba(124, 200, 255, 0.308);
+   border-radius: 16px;
+}
+
+.log-with > #apple {
+   width: 5.6rem;
+   filter: invert();
+
+   background: #f4f4f4;
+   border-radius: 16px;
+   padding: 1rem;
+}
+
