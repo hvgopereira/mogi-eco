@@ -1,6 +1,9 @@
-# Mogi Eco
+<img width="350px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/75c55cd8-2662-4f8c-bafc-155daa4ca0cc" alt="Logo MogiEco"> </img>
 
-Mogi Eco é um projeto/protótipo de aplicativo móvel voltado para a preservação ambiental e o engajamento da comunidade na proteção do meio ambiente, especialmente focado na cidade de Mogi das Cruzes. Desenvolvido por Hugo Pereira, aluno do primeiro semestre de Análise e Desenvolvimento de Sistemas (ADS), o projeto nasceu da necessidade identificada pela Secretaria do Meio Ambiente de Mogi das Cruzes, que firmou parceria com a Universidade Braz Cubas para buscar soluções inovadoras.
+ Mogi Eco é um projeto/protótipo de aplicativo móvel com o objetivo principal de desenvolver a ideia concebida por Hugo Pereira, aluno do primeiro semestre de Análise e Desenvolvimento de Sistemas (ADS). A 
+ iniciativa nasceu da necessidade identificada pela Secretaria do Meio Ambiente de Mogi das Cruzes, em parceria com a Universidade Braz Cubas, de buscar soluções inovadoras para a preservação ambiental na região.
+
+**O foco central do projeto é o desenvolvimento visual da ideia**, por meio da criação de interfaces e funcionalidades concebidas para engajar a comunidade na proteção do meio ambiente, com ênfase na cidade de Mogi das Cruzes.
 
 ## Motivação
 
@@ -19,8 +22,6 @@ O Mogi Eco surgiu da necessidade de criar uma ferramenta que permitisse à comun
 - **Compartilhamento de Dicas Sustentáveis**: Os usuários podem compartilhar dicas ecológicas e práticas em suas redes sociais, incentivando amigos e familiares a adotar hábitos mais sustentáveis.
 
 - **Alertas de Poluição**: Os usuários podem receber notificações sobre níveis de poluição e qualidade do ar em suas áreas locais, ajudando a promover a conscientização sobre questões ambientais e de saúde pública.
-
-- **Gerenciamento de Áreas Verdes**: Os usuários com perfil de gerente têm acesso a uma seção especial do aplicativo, onde podem visualizar e gerenciar todas as árvores cadastradas em suas áreas designadas. Eles podem coletar dados, analisar estatísticas de área verde e identificar áreas que requerem atenção especial em termos de conservação e manutenção.
 
 - **Eventos Ambientais**: O aplicativo lista eventos e atividades relacionadas ao meio ambiente em Mogi das Cruzes, como mutirões de limpeza, palestras e workshops. Os usuários podem se inscrever e participar desses eventos para contribuir ativamente para a preservação ambiental da região.
 
