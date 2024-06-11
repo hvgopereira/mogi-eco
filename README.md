@@ -1,5 +1,6 @@
 <img width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/75c55cd8-2662-4f8c-bafc-155daa4ca0cc" alt="Logo MogiEco"> </img>
 <img align="right" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/f86337f2-3663-4afb-bcba-c8fb5cf45b66"> </img>
+<h6> Projeto iniciado em Junho/2024</h6>
 
  Mogi Eco é um projeto/protótipo em desenvolvimento de um aplicativo/site móvel com o objetivo principal de desenvolver a ideia concebida por Hugo Pereira, aluno do primeiro semestre de Análise e Desenvolvimento de Sistemas (ADS). A iniciativa nasceu da necessidade identificada pela Secretaria do Meio Ambiente de Mogi das Cruzes, em parceria com a Universidade Braz Cubas, de buscar soluções inovadoras para a preservação ambiental na região.
 
