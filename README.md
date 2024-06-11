@@ -6,7 +6,10 @@
 
  <h5 align="center"><strong> O foco central do projeto é o desenvolvimento visual da idéia </strong>(Desenvolvido em Html, Css e JavaScript por melhor conhecimento, poderá tornar-se um app atráves do Cordova).</h5>
 
-<div>
+<div style="display: inline-block;">
+<!--  <img align="center" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/fc76c3ce-6053-4676-9b19-e41481b344b2"> -->
+<!--  <img align="left" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/399dbfe6-7dc5-46ad-a093-29bad224cdc9"> -->
+<!--  <img align="right" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/f345104e-a255-4f69-9507-f0dbacc87fe3"> -->
  
 </div>
 
