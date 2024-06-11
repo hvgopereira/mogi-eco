@@ -35,8 +35,8 @@ body {
 }
 
 .text-greet {
-   margin-bottom: 2.5rem;
-   margin-top: 3.5rem;
+   margin-bottom: 3.5rem;
+   margin-top: 7.5rem;
 }
 
 .text-greet > h1 {
@@ -110,7 +110,7 @@ input[type="password"] {
    width: 100%;
    height: 6.5rem;
    padding: 1rem;
-   margin-top: 1.5rem;
+   margin-top: 2.2rem;
    background-color: #2e7d32;
    border: none;
    color: white;
@@ -123,10 +123,86 @@ input[type="password"] {
    font-weight: 500;
 }
 
+/* .checkbox-remember{
+   margin-top: 0.5rem;
+   display: flex;
+   gap: 0.5rem;
+   align-items: center;
+} */
+
+.checkbox-remember {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 1rem;
+}
+
+.checkbox-remember p {
+   font-family: "Inter";
+   font-size: 1.4rem;
+   font-weight: 800;
+   color: #d02e1cb8;
+   cursor: pointer;
+}
+
+.checkbox-re {
+   /* margin-top: 1rem; */
+   display: flex;
+   align-items: center;
+
+   gap: 1rem;
+}
+
+.checkbox-remember input[type="checkbox"] {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   appearance: none;
+   -webkit-appearance: none;
+   width: 1px;
+   height: 1px;
+   /* border: 1px solid #ccc; */
+   border: 1px solid #777777;
+   border-radius: 5px;
+   position: relative;
+   cursor: pointer;
+}
+
+.checkbox-remember input[type="checkbox"]:checked::before {
+   content: '';
+   position: absolute;
+   /* top: 1px; */
+   /* left: 3px; */
+  
+   width: 1.2rem;
+   height: 1.2rem;
+   background-color: #2e7d32; /* cor do check */
+   border-radius: 3px;
+}
+
+.checkbox-remember label {
+   /* margin-left: 8px; */
+   font-family: "Lato";
+   font-size: 1.4rem;
+   font-weight: 800;
+   color: #777777;
+   cursor: pointer;
+}
+
+.checkbox-remember input[type="checkbox"] {
+   /* padding: 2rem; */
+   padding: 1rem;
+}
+
+.checkbox-remember label {
+   margin: 0;
+}
+
 .login-home {
    font-family: "Inter", sans-serif;
    text-align: center;
-   margin-top: 1.5rem;
+   margin-top: 3.5rem;
    font-size: 1.5rem;
 
    color: #787878;
