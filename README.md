@@ -22,11 +22,13 @@
  
 </div>
 
-##
+<br>
 
 ## Motivação
 
 O Mogi Eco surgiu da necessidade de criar uma ferramenta que permitisse à comunidade de Mogi das Cruzes participar ativamente da preservação do meio ambiente local. Com o crescente desmatamento e as mudanças climáticas, tornou-se urgente cadastrar e monitorar as árvores da cidade, além de promover a conscientização sobre a importância das áreas verdes urbanas.
+
+<br>
 
 ## Funcionalidades
 
@@ -44,9 +46,25 @@ O Mogi Eco surgiu da necessidade de criar uma ferramenta que permitisse à comun
 
 - **Eventos Ambientais**: O aplicativo lista eventos e atividades relacionadas ao meio ambiente em Mogi das Cruzes, como mutirões de limpeza, palestras e workshops. Os usuários podem se inscrever e participar desses eventos para contribuir ativamente para a preservação ambiental da região.
 
+<br>
+
+## Importância do Cadastro de Árvores
+ O cadastro de árvores é uma das iniciativas centrais do Mogi Eco. Ao registrar e mapear as árvores existentes na cidade, os usuários contribuem para um banco de dados valioso que auxilia na gestão e na preservação das áreas verdes. Além disso, o conhecimento detalhado sobre a distribuição das espécies vegetais permite o planejamento de ações de reflorestamento e conservação, promovendo a biodiversidade e a qualidade de vida na região.
+
+<br>
+
+## Valor das Árvores
+
+As árvores desempenham um papel vital no equilíbrio ecológico de Mogi das Cruzes. Além de fornecerem sombra e refúgio para a fauna local, elas também contribuem para a melhoria da qualidade do ar, absorvendo gases poluentes e liberando oxigênio. Além disso, as áreas arborizadas proporcionam benefícios estéticos e recreativos, tornando-se locais de lazer e relaxamento para os moradores da cidade.
+
+
+<br>
+
 ## Autor
 
 Mogi Eco foi idealizado e desenvolvido por [Hugo Pereira](https://github.com/hvgopereira), aluno do primeiro semestre de Análise e Desenvolvimento de Sistemas (ADS) na Universidade Braz Cubas, que também foi responsável pela criação do nome e da logo do aplicativo, bem como pelo design de todas as interfaces.
+
+<br>
 
 ## Licença
 
