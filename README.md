@@ -33,16 +33,22 @@ O Mogi Eco surgiu da necessidade de criar uma ferramenta que permitisse à comun
 ## Funcionalidades
 
 - **Cadastro de Árvores**: Os usuários podem cadastrar árvores em suas localizações, fornecendo informações como espécie, altura, diâmetro do tronco e estado de saúde.
+<br>
 
 - **Gerenciamento de Árvores**: Uma seção especial para gerentes de áreas verdes ou funcionários da Secretaria do Meio Ambiente, onde eles podem acessar dados detalhados sobre todas as árvores cadastradas na cidade, bem como visualizar estatísticas sobre a cobertura vegetal em diferentes bairros.
+<br>
 
 - **Reporte de Desastres Naturais**: Permite que os usuários relatem desastres naturais, como deslizamentos de terra, inundações e quedas de árvores, para uma resposta mais rápida das autoridades competentes.
+<br>
 
 - **Programa de Reciclagem**: O aplicativo oferece um programa de reciclagem virtual, onde os usuários podem acompanhar seu progresso na coleta e reciclagem de materiais como plástico, vidro e papel. Eles podem receber recompensas virtuais ou descontos em estabelecimentos locais participantes por seu envolvimento ativo na reciclagem. Além disso, o aplicativo fornece dicas e orientações sobre como separar corretamente os resíduos e reduzir o impacto ambiental.
+<br>
 
 - **Compartilhamento de Dicas Sustentáveis**: Os usuários podem compartilhar dicas ecológicas e práticas em suas redes sociais, incentivando amigos e familiares a adotar hábitos mais sustentáveis.
+<br>
 
 - **Alertas de Poluição**: Os usuários podem receber notificações sobre níveis de poluição e qualidade do ar em suas áreas locais, ajudando a promover a conscientização sobre questões ambientais e de saúde pública.
+<br>
 
 - **Eventos Ambientais**: O aplicativo lista eventos e atividades relacionadas ao meio ambiente em Mogi das Cruzes, como mutirões de limpeza, palestras e workshops. Os usuários podem se inscrever e participar desses eventos para contribuir ativamente para a preservação ambiental da região.
 
