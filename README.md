@@ -6,6 +6,10 @@
 
  <h5 align="center"><strong> O foco central do projeto é o desenvolvimento visual da idéia </strong>(Desenvolvido em Html, Css e JavaScript por melhor conhecimento, poderá tornar-se um app atráves do Cordova).</h5>
 
+<div>
+ 
+</div>
+
 ## Motivação
 
 O Mogi Eco surgiu da necessidade de criar uma ferramenta que permitisse à comunidade de Mogi das Cruzes participar ativamente da preservação do meio ambiente local. Com o crescente desmatamento e as mudanças climáticas, tornou-se urgente cadastrar e monitorar as árvores da cidade, além de promover a conscientização sobre a importância das áreas verdes urbanas.
