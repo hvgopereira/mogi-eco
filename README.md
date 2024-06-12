@@ -73,6 +73,18 @@ As árvores desempenham um papel vital no equilíbrio ecológico de Mogi das Cru
 
 <br>
 
+## Parcerias e Cupons de Desconto
+
+Uma das ideias para o Mogi Eco é estabelecer parcerias com lojas locais e empresas que compartilham nossa missão de promover a sustentabilidade e a preservação ambiental. A proposta é oferecer cupons de desconto e promoções especiais para os usuários do aplicativo que participarem ativamente das nossas iniciativas ambientais. Isso ajudará a atrair mais usuários e incentivá-los a se envolverem na preservação do meio ambiente.
+
+### Como Funciona?
+
+- **Participação Ativa:** Os usuários que se engajarem em atividades como o cadastro de novas árvores, relatórios de desastres naturais, e manutenção de áreas verdes poderão ganhar pontos.
+- **Troca de Pontos:** Esses pontos poderão ser trocados por cupons de desconto em lojas parceiras, incentivando a comunidade a se envolver ainda mais com o meio ambiente.
+- **Benefícios:** Além de contribuir para um ambiente mais saudável, os usuários terão a chance de economizar em produtos e serviços de empresas que apoiam a causa ambiental.
+
+<br>
+
 ## Contribuição
 
 Estou sempre aberto a contribuições e melhorias no projeto Mogi Eco! Se você tem ideias, sugestões ou melhorias, sinta-se à vontade para fazer um fork do repositório e adicionar suas alterações. Toda ajuda é bem-vinda e apreciada.
