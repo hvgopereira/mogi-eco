@@ -3,11 +3,11 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="styles/global.css">
-   <link rel="stylesheet" href="styles/register.css">
+   <link rel="stylesheet" href="../styles/global.css">
+   <link rel="stylesheet" href="../styles/login.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-   <title>Crie sua conta!</title>
+   <title>Entrar na conta</title>
 
 </head>
 <body>
@@ -18,28 +18,22 @@
                keyboard_backspace
             </span>
          </a>
-         <p class="title-register">Cadastro</p>
+         <p class="title-register">Entrar</p>
          <p style="opacity: 0%;">oooo</p>
       </section>
 
    <div class="pos-all">
       <section class="text-greet">
          <h1 class="title-greet">Olá, Bem-Vindo👋</h1>
-         <h2 class="subtitle-greet">Primeiro, vamos criar sua conta</h2>
+         <h2 class="subtitle-greet">Entre na sua conta</h2>
       </section>
-
-     
-         <form id="form" class="form">
-            <div class="form-content">
-               <label for="name">Nome</label>
-               <input type="text" id="username" name="name" placeholder="Insira seu nome completo">
-               <span class="error-message">Aqui vai sua mensagem de erro...</span>
-            </div>
 
             <div class="form-content">
                <label for="email">Email</label>
                <input type="email" id="email" name="email" placeholder="Insira o endereço de e-mail">
                <span class="error-message">Aqui vai sua mensagem de erro...</span>
+
+
 
             </div>
 
@@ -52,24 +46,26 @@
                <div class="error-message">Aqui vai sua mensagem de erro...</div>
             </div>
 
-            
-            <div class="form-content">
-               <label for="confirm-password">Confirme sua Senha</label>
-               <div class="password-container">
-                  <input type="password" id="confirmPassword" name="confirm-password"  placeholder="Repita sua senha">
-                  <span class="material-symbols-outlined toggle-password" onclick="togglePassword('confirm-password', this)">visibility_off</span>
+
+            <section class="checkbox-remember">
+               <div class="checkbox-re">
+                  <input type="checkbox" name="remember-me" id="">
+                  <label for="checkbox">Lembrar-me</label>
                </div>
-               <div class="error-message">Aqui vai sua mensagem de erro...</div>
-            </div>
-            
 
-            <button type="submit" class="btn-submit">Criar Conta</button>
+               <p>Esqueceu sua senha?</p>
+            </section>
 
-            <h4 class="login-home">Já tem uma conta? <a href="login.html">Entre aqui.</a></h4>
+            <button type="submit" class="btn-submit">Entrar</button>
+
+         
+
+
+            <h4 class="login-home">Não tem uma conta ainda? <a href="register.html">Crie aqui.</a></h4>
          </form>
 
          <section class="login-with-wrapper">
-            <h5 class="log-with-txt">Ou se registre com</h5>
+            <h5 class="log-with-txt">Ou entre com</h5>
             <div class="div-log-with"></div>
          </section>
 
@@ -84,7 +80,7 @@
 
    </div>
    
-   <script src="scripts/global.js"></script>
+   <script src="../scripts/global.js"></script>
 
 </body>
 </html>
