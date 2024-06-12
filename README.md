@@ -23,6 +23,9 @@
  <img align="right" width="200px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/f345104e-a255-4f69-9507-f0dbacc87fe3">
  
 </div>
+<br>
+
+<img align="right" width="250px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/75c55cd8-2662-4f8c-bafc-155daa4ca0cc" alt="Logo MogiEco"> </img>
 
 <br>
 
