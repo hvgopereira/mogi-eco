@@ -68,6 +68,22 @@ O Mogi Eco surgiu da necessidade de criar uma ferramenta que permitisse à comun
 
 As árvores desempenham um papel vital no equilíbrio ecológico de Mogi das Cruzes. Além de fornecerem sombra e refúgio para a fauna local, elas também contribuem para a melhoria da qualidade do ar, absorvendo gases poluentes e liberando oxigênio. Além disso, as áreas arborizadas proporcionam benefícios estéticos e recreativos, tornando-se locais de lazer e relaxamento para os moradores da cidade.
 
+<br>
+<br>
+
+## Contribuição
+
+Estou sempre aberto a contribuições e melhorias no projeto Mogi Eco! Se você tem ideias, sugestões ou melhorias, sinta-se à vontade para fazer um fork do repositório e adicionar suas alterações. Toda ajuda é bem-vinda e apreciada.
+
+### Como Contribuir
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch para suas modificações (`git checkout -b feature/nova-funcionalidade`).
+3. Faça as alterações desejadas e commit (`git commit -m 'Adiciona nova funcionalidade'`).
+4. Faça o push da sua branch (`git push origin feature/nova-funcionalidade`).
+5. Abra um Pull Request explicando suas alterações e por que elas devem ser incorporadas.
+
+Vamos trabalhar juntos para tornar o Mogi Eco ainda melhor!
 
 <br>
 
