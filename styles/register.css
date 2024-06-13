@@ -1,19 +1,31 @@
 body {
-   font-size: 1.6rem;
-   padding: 2.8rem 2rem;
+   font-size: 0rem;
+   padding: 0rem 2.5rem;
    overflow-x: hidden;
    background: var(--bg-secondary);
 }
 
 .pos-all {
-   padding: 0 1rem;
+   padding: 0 0.5rem;
 }
 
 .back-arrow {
+   margin-top: 2rem;
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
+
+.back-arrow .left {
+   flex-shrink: 0;
+}
+
+.back-arrow .center {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
 
 .back-arrow span {
    font-size: 10.5;
@@ -35,13 +47,13 @@ body {
 }
 
 .text-greet {
-   margin-bottom: 2.5rem;
+   margin-bottom: 0.1rem;
    margin-top: 3.5rem;
 }
 
 .text-greet > h1 {
    font-family: "Inter", sans-serif;
-   font-size: 3.5rem;
+   font-size: 3rem;
    font-weight: 800;
 }
 
@@ -56,6 +68,7 @@ body {
 }
 
 label {
+   font-size: 1.4rem;
    font-family: "Lato", sans-serif;
    font-weight: 800;
 
@@ -67,7 +80,7 @@ label {
 form {
    display: flex;
    flex-direction: column;
-   gap: 0.5rem;
+   gap: 0.3rem;
 }
 
 input[type="text"],
@@ -78,7 +91,7 @@ input[type="password"] {
 
    width: 100%;
    padding: 1.5rem;
-   margin-top: 0.8rem;
+   margin-top: 0.5rem;
    border: 2px solid #c2c2c2;
    border-radius: 5px;
    box-sizing: border-box;
@@ -100,7 +113,7 @@ input[type="password"] {
 
    position: absolute;
    right: 1rem;
-   top: 35%;
+   /* top: 35%; */
    /* transform: translateY(-50%); */
    cursor: pointer;
    color: #3f3f3f;
@@ -110,7 +123,7 @@ input[type="password"] {
    width: 100%;
    height: 6.5rem;
    padding: 1rem;
-   margin-top: 1.5rem;
+   margin-top: 2.5rem;
    background-color: #2e7d32;
    border: none;
    color: white;
@@ -126,7 +139,7 @@ input[type="password"] {
 .login-home {
    font-family: "Inter", sans-serif;
    text-align: center;
-   margin-top: 1.5rem;
+   margin-top: 0.9rem;
    font-size: 1.5rem;
 
    color: #787878;
@@ -158,7 +171,8 @@ input[type="password"] {
    position: absolute;
    bottom: -2.5rem;
    white-space: nowrap;
-   left: 59%;
+   /* left: 35%; */
+   right: 0;
    visibility: hidden;
 
    font-family: "Inter", sans-serif;
@@ -170,6 +184,10 @@ input[type="password"] {
 
 }
 
+.form-content.sucess input {
+   border-color: #2e7d32;
+}
+
 .form-content.error span {
    color: #f63d28;
    visibility: visible;
@@ -179,7 +197,7 @@ input[type="password"] {
    position: relative;
 
 
-   margin-top: 1rem;
+   margin-top: 0.5rem;
 }
 
 .div-log-with {
@@ -201,7 +219,7 @@ input[type="password"] {
    left: 50%;
    transform: translateX(-50%);
 
-   margin-top: 1.3rem;
+   margin-top: 1.2rem;
    background: white;
    padding: 0 1.5rem;
 
@@ -211,9 +229,6 @@ input[type="password"] {
    color: rgba(84, 84, 84, 0.734);
 }
 
-.log-with-txt > div {
-  
-}
 
 .log-with {
    display: flex;
@@ -221,7 +236,7 @@ input[type="password"] {
    align-items: center;
    gap: 4rem;
 
-   margin-top: 7rem;
+   margin-top: 5rem;
 }
 
 .log-with > img{
@@ -229,13 +244,13 @@ input[type="password"] {
 
 .log-with > #google {
    background: rgba(255, 185, 185, 0.349);
-   width: 6.3rem;
+   width: 5rem;
    padding: 1rem;
    border-radius: 16px;
 }
 
 .log-with > #facebook {
-   width: 6.3rem;
+   width: 5rem;
    margin-bottom: 0.1rem;
 
    background: rgba(124, 200, 255, 0.308);
@@ -243,7 +258,7 @@ input[type="password"] {
 }
 
 .log-with > #apple {
-   width: 6.3rem;
+   width: 5rem;
    filter: invert();
 
    background: #ffffff;

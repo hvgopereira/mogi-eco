@@ -24,40 +24,73 @@ const confirmPassword = document.getElementById("confirmPassword");
 form.addEventListener("submit", (event) => {
    event.preventDefault();
 
-   checkInputName();
-   checkInputEmail();
+   checkInputs();
 })
 
-function checkInputName() {
+function checkInputs() {
    const usernameValue = username.value;
+   const emailValue = email.value;
+   const passwordValue = password.value;
+   const confirmPasswordValue = confirmPassword.value;
 
    if (usernameValue === "") {
-      errorInput(username, "Preencha seu nome!")
+      errorInput(username, "Preencha seu nome completo!")
    }else {
-      const formItem = username.parentElement;
-      formItem.className = "form-content"
+      successInput(username);
    }
-}
-
-function checkInputEmail() {
-   const emailValue = email.value;
 
    if(emailValue === "") {
       errorInput(email, "O email é obrigatório.")
+   }else if (!checkEmail(emailValue)) {
+      errorInput(email, "Por favor, insira um email válido.");
    }else {
-      const formItem = email.parentElement;
-      formItem.className = "form-content"
+      successInput(email);
+
    }
-}
+
+   if (passwordValue === "") {
+      errorInput(password, "A senha é obrigatória.");
+   } else if (passwordValue.length < 7) {
+      errorInput(password, "Precisa ter no mínimo 7 caracteres.");
+   } else {
+      // successInput(password);
+   }
+
+
+   if (confirmPasswordValue === "") {
+      errorInput(confirmPassword, "A confirmação da senha é obrigatória.");
+   } else if (confirmPasswordValue !== passwordValue) {
+      errorInput(confirmPassword, "As senhas não coincidem.");
+   } else {
+      successInput(confirmPassword);
+   }
+
+ }
+
+
+
+
 
 
 function errorInput(input, message) {
-   const formItem = input.parentElement;
-   const textMessage = formItem.querySelector(".error-message")
+   const formItem = input.closest(".form-content");
+   
+   const textMessage = formItem.querySelector(".error-message");
 
    textMessage.innerText = message;
+   formItem.classList.add("error");
 
-   formItem.className = "form-content error"
 }
+
+function successInput(input) {
+   const formItem = input.parentElement;
+   formItem.className = "form-content sucess";
+}
+
+function checkEmail(email) {
+   return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+     email
+   );
+ }
 
 
