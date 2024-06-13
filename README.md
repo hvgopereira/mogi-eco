@@ -100,8 +100,8 @@ Estou sempre aberto a contribuições e melhorias no projeto Mogi Eco! Se você 
 ### Ou entre em contato:
 <br>
  <section align="">
-  <a href="https://x.com/hvgopereira"><img width="120px" src="https://img.shields.io/badge/-Twitter-212121?style=for-the-badge&logo=Twitter&logoColor=white"></img></a>
-  <a href="https://discord.gg/gvzwyFMqNx" target="_blank"><img width="150px" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+  <a href="https://x.com/hvgopereira"><img width="128px" src="https://img.shields.io/badge/-Twitter-212121?style=for-the-badge&logo=X&logoColor=white""></img></a>
+  <a href="https://discord.gg/gvzwyFMqNx" target="_blank"><img width="130px" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
  </section>
 <br>
 Vamos trabalhar juntos para tornar o Mogi Eco ainda melhor!
