@@ -53,7 +53,7 @@ function checkInputs() {
    } else if (passwordValue.length < 7) {
       errorInput(password, "Precisa ter no mínimo 7 caracteres.");
    } else {
-      // successInput(password);
+      successInput(password);
    }
 
 
@@ -96,15 +96,15 @@ function checkEmail(email) {
 
  // HOME - SIDEBAR
 
-const menuIcon = document.getElementById('menu-toggle');
+const menuIcon = document.('menu-toggle');
 
 function toggleMenu() {
-   const nav = document.getElementById('nav');
-   nav.classList.toggle('active')
-
+   const sidebar = document.getElementById('sidebar');
+   sidebar.classList.add('active');
 }
 
-menuIcon.addEventListener('click', toggleMenu);
+
+menuIcon.addEventListener('click', abc);
 
 
  

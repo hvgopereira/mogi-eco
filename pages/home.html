@@ -20,11 +20,11 @@
          </h2></li>
       </nav>
      
-         <i class="fa-solid fa-bars" id="menu-toggle"></i>
+         <button id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
     
    </header>
 
-   <div class="sidebar-menu" id="sidebar">
+   <div class="sidebar" id="sidebar">
          <!-- <img src="../images/logo-mogieco-png.png" alt=""> -->
          <a id="logo" href="../images/logo-mogieco-png.png"></a>
       <nav id="nav">
@@ -113,9 +113,21 @@
 
 
 
+   <script>
+const menuIcon = document.getElementById("menu-toggle");
+
+function toggleMenu() {
+   const sidebar = document.getElementById("sidebar");
+   sidebar.classList.toggle("active");
+
+}
+
+   menuIcon.addEventListener('click', toggleMenu)
 
 
-   <script src="../scripts/global.js"></script>
+   </script>
+
+
    <script src="https://kit.fontawesome.com/e0ec8dc6d9.js" crossorigin="anonymous"></script>
 </body>
 </html>
