@@ -79,7 +79,6 @@ function errorInput(input, message) {
 
    textMessage.innerText = message;
    formItem.classList.add("error");
-
 }
 
 function successInput(input) {
@@ -94,3 +93,18 @@ function checkEmail(email) {
  }
 
 
+
+ // HOME - SIDEBAR
+
+const menuIcon = document.getElementById('menu-toggle');
+
+function toggleMenu() {
+   const nav = document.getElementById('nav');
+   nav.classList.toggle('active')
+
+}
+
+menuIcon.addEventListener('click', toggleMenu);
+
+
+ 

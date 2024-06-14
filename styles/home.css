@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+
+   font-family: "Poppins", sans-serif;
+
+   text-decoration: none;
+   list-style-type: none;
+}
+
+:root {
+   font-size: 62.5%;
+}
+
+body {
+   font-size: 1.6rem;
+   /* background: rgb(103, 103, 103); */
+   background: url(../images/uber-challenge.jpg);
+   background-position: right;
+   background-size: 2300px;
+   /* background-repeat: no-repeat; */
+   font-weight: 800;
+
+}
+
+header {
+   background: white;
+   padding: 1.2rem 2rem;
+   display: flex;
+   align-items: center;
+
+   border-radius: 0 0 20px 20px;
+
+   justify-content: space-between;
+
+
+   box-shadow: 0 2px 12px 05px rgba(0, 0, 0, 0.346);
+}
+
+header nav {
+   display: flex;
+   align-items: center;
+   font-size: 1.2rem;
+
+   gap: 1rem;
+}
+
+header nav li .member-title {
+   color: rgb(77, 77, 77);
+   text-transform: uppercase;
+   font-size: 1.1rem;
+}
+
+header > .material-symbols-outlined {
+   font-size: 3rem;
+}
+
+.fa-bars {
+   font-size: 2.5rem;
+}
+
+header img {
+   width: 50px;
+   border-radius: 100px;
+}
+
+.user-title {
+   display: flex;
+   flex-direction: column;
+}
+
+.user-name {
+   font-weight: 700;
+}
+
+/* SIDEBAR */
+
+/* .sidebar-menu {
+   width: 0;
+   position: fixed;
+   top: 0;
+   right: -300px;
+   height: 100%;
+   background-color: #111;
+   transition: 0.5s;
+   overflow-x: hidden;
+   padding-top: 60px;
+   z-index: 1000;
+} */
+
+#sidebar {
+   z-index: 999;
+   display: none;
+   background: rgb(255, 255, 255);
+   width: 100%;
+   height: 35vh;
+   padding: 1.5rem 2rem;
+
+}
+
+
+
+#nav ul li a {
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   gap: 1.2rem;
+}
+
+#menu {
+   z-index: 999;
+   margin-top: 3rem;
+   gap: 2rem;
+
+ 
+
+   display: flex;
+   flex-direction: column;
+
+}
+
+
+.menu-txt {
+   color: #193a1a;
+}
+
+#nav.active #menu {
+   
+   display: flex;
+}
+
+
+
+/* /SIDEBAR */
+
+
+.temperature-btn {
+   background: white;
+   border-radius: 5px;
+   width: 6.5rem;
+   height: 4rem;
+   z-index: -1;
+
+   display: flex;
+   align-items: center;
+   gap: 0.6rem;
+
+   position: absolute;
+   left: 2.5rem;
+   top: 10rem;
+
+   color: #1d431e;
+   font-weight: 600;
+
+   box-shadow: 0 2px 12px 05px rgba(0, 0, 0, 0.274);
+}
+
+.fa-sun {
+   margin-left: 0.5rem;
+   font-size: 2.2rem;
+}
+
+
+.user-inmap img {
+   width: 60px;
+   border: 4px solid #418f42;
+   border-radius: 100%;
+
+   position: relative;
+   position: absolute;
+   bottom: 25%;
+   left: 30%;
+
+   box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.183);
+
+}
+
+.tree-loc .p-tree {
+   background: #418f42;
+   width: 1.5rem;
+   height: 1.5rem;
+   border-radius: 100%;
+   border: 2px solid #317633;
+
+   position: absolute;
+   bottom: 43%;
+   left: 26%;
+}
+
+.p-tree-2 {
+   background: #418f42;
+   width: 1.5rem;
+   height: 1.5rem;
+   border-radius: 100%;
+   border: 2px solid #317633;
+
+   position: absolute;
+   bottom: 41%;
+   left: 30%;
+}
+
+.p-tree-3 {
+   background: #418f42;
+   width: 1.5rem;
+   height: 1.5rem;
+   border-radius: 100%;
+   border: 2px solid #317633;
+
+   position: absolute;
+   bottom: 39%;
+   left: 34%;
+}
+
+.p-tree-4 {
+   background: #a86535;
+   width: 1.5rem;
+   height: 1.5rem;
+   border-radius: 100%;
+   border: 2px solid #71471b;
+
+   position: absolute;
+   bottom: 39%;
+   right: 35%;
+}
+
+.p-tree-5 {
+   background: #9b1912;
+   width: 1.5rem;
+   height: 1.5rem;
+   border-radius: 100%;
+   border: 2px solid #7c1616;
+
+   position: absolute;
+   bottom: 41%;
+   right: 32%;
+}
+
+.m-tree {
+   background: #418f42;
+   width: 2rem;
+   height: 2rem;
+   border-radius: 100%;
+   border: 2px solid #317633;
+
+   position: absolute;
+   bottom: 34%;
+   left: 44%;
+}
+
+.m-tree-2 {
+   background: #a86535;
+
+   width: 2rem;
+   height: 2rem;
+   border-radius: 100%;
+   border: 2px solid #71471b;
+
+
+   position: absolute;
+   bottom: 37%;
+   left: 38%;
+}
+
+
+.g-tree {
+   background: #418f42;
+   width: 2.5rem;
+   height: 2.5rem;
+   border-radius: 100%;
+   border: 2px solid #317633;
+
+   position: absolute;
+   bottom: 34%;
+   left: 50%;
+}
+
+.g-tree-2 {
+   background: #9b1912;
+
+   width: 2.5rem;
+   height: 2.5rem;
+   border-radius: 100%;
+   border: 2px solid #7c1616;
+
+   position: absolute;
+   bottom: 30%;
+   right: 40%;
+}
+
+
+
+
+.nav-bottom-wrapper {
+   border-radius: 20px 20px 0 0;
+   box-shadow: 0 10px 20px 05px rgba(0, 0, 0, 0.57);
+
+   background: white;
+   height: 15%;
+   width: 100%;
+
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: 0;
+   z-index: 999;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.nav-bottom {
+   /* margin-top: 4rem; */
+
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+
+   gap: 7rem;
+}
+
+
+.fa-house {
+   font-size: 2.6rem;
+}
+
+.fa-camera {
+   margin-bottom: 4rem;
+   font-size: 3.5rem;
+   box-shadow: 0 5px 12px 05px rgba(2, 59, 9, 0.388);
+
+   background: var(--green-primary);
+   border-radius: 100%;
+   padding: 3rem;
+}
+
+.fa-user {
+   font-size: 2.6rem;
+}
+
+
+.filter-btn {
+   background: white;
+   border-radius: 100%;
+   width: 5rem;
+   height: 5rem;
+   z-index: -1;
+
+   display: flex;
+   align-items: center;
+   gap: 0.6rem;
+
+   position: absolute;
+   right: 2.5rem;
+   top: 10rem;
+
+   box-shadow: 0 2px 12px 05px rgba(0, 0, 0, 0.274);
+
+}
+
+.fa-filter {
+  margin: auto;
+  font-size: 2.2rem;
+}
+
