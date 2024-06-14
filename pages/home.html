@@ -20,7 +20,8 @@
          </h2></li>
       </nav>
      
-         <button id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+         <button id="menu-toggle"><i class="fa-solid fa-bars"></i>
+         </button>
     
    </header>
 
@@ -30,20 +31,20 @@
       <nav id="nav">
          <ul class="menu-bar" id="menu">
             <li><a href="#">
-               <i class="fa-solid fa-circle-user" style="color: #07200e;"></i>
+               <i class="fa-solid fa-circle-user" style="color: #07200e; font-size: 2rem;"></i>
                <span class="menu-txt">Perfil</span>
             </a></li>
             <li><a href="#">
-               <i class="fa-solid fa-clock-rotate-left" style="color: #07200e;"></i>
+               <i class="fa-solid fa-clock-rotate-left" style="color: #07200e; font-size: 2rem;"></i>
                <span class="menu-txt">Pedidos | Cadastros</span>
             </a></li>
             <hr>
             <li><a href="#">
-               <i class="fa-solid fa-gear" style="color: #07200e;"></i>
+               <i class="fa-solid fa-gear" style="color: #07200e; font-size: 2rem;"></i>
                <span class="menu-txt">Configurações</span>
             </a></li>
             <li><a href="#">
-               <i class="fa-regular fa-circle-question" style="color: #07200e;"></i>
+               <i class="fa-regular fa-circle-question" style="color: #07200e; font-size: 2rem;"></i>
                <span class="menu-txt">Ajuda</span>
             </a></li>
          </ul>
@@ -114,12 +115,26 @@
 
 
    <script>
+
+
+
+
 const menuIcon = document.getElementById("menu-toggle");
 
 function toggleMenu() {
    const sidebar = document.getElementById("sidebar");
    sidebar.classList.toggle("active");
 
+   const icon = menuIcon.querySelector('i');
+
+   // Alterna entre as classes fa-bars e fa-xmark
+   if (icon.classList.contains('fa-bars')) {
+       icon.classList.remove('fa-bars');
+       icon.classList.add('fa-xmark');
+   } else {
+       icon.classList.remove('fa-xmark');
+       icon.classList.add('fa-bars');
+   }
 }
 
    menuIcon.addEventListener('click', toggleMenu)
