@@ -1,7 +1,7 @@
 <div align="center">
- <img align="left" max-width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/75c55cd8-2662-4f8c-bafc-155daa4ca0cc" alt="Logo MogiEco"> </img>
+ <img align="left" max-width="300px" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/75c55cd8-2662-4f8c-bafc-155daa4ca0cc" alt="Logo MogiEco"> </img>
  <img title="Logo Hugo Pereira" src="https://github.com/hvgopereira/hvgopereira/assets/162385532/180107d8-0fd5-4f6a-8d0f-76191171b2ad" min-width="150px" max-width="150px" width="150px" align="center" alt="Logo Hugo Pereira"/>
- <img align="right" max-width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/f86337f2-3663-4afb-bcba-c8fb5cf45b66"> </img>
+ <img align="right" max-width="300px" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/f86337f2-3663-4afb-bcba-c8fb5cf45b66"> </img>
 </div>
 
 ##
@@ -20,10 +20,10 @@
 ##
 <div align="center">
 <!--  <img align="center" width="800px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/23288fd6-41a7-4028-98ed-e63877d72e6b"></img> -->
- <img align="center" max-width="900px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/4572b468-1516-42ab-a67e-afba38bacfcd"></img>
+ <img align="center" max-width="900px" width="900px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/4572b468-1516-42ab-a67e-afba38bacfcd"></img>
 </div>
 
-<img align="right" width="250px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/75c55cd8-2662-4f8c-bafc-155daa4ca0cc" alt="Logo MogiEco"> </img>
+<img align="right" width="250px" width="900px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/75c55cd8-2662-4f8c-bafc-155daa4ca0cc" alt="Logo MogiEco"> </img>
 
 <br>
 
