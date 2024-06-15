@@ -18,15 +18,10 @@
  <h5 align="center"><strong> O foco central do projeto é o desenvolvimento visual da idéia <br> </strong>(Desenvolvido em Html, Css e JavaScript por melhor conhecimento, poderá tornar-se um app atráves do Cordova entre outros).</h5>
 
 ##
-
 <div align="center">
-<!--  <img align="center" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/fc76c3ce-6053-4676-9b19-e41481b344b2"> -->
- <img align="left"  width="200px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/2b5b44a7-d0a5-460e-87d3-aa296a437d51">
- <img align="center" width="200px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/399dbfe6-7dc5-46ad-a093-29bad224cdc9">
- <img align="right" width="200px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/f345104e-a255-4f69-9507-f0dbacc87fe3">
- 
+<!--  <img align="center" width="800px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/23288fd6-41a7-4028-98ed-e63877d72e6b"></img> -->
+ <img align="center" width="900px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/4572b468-1516-42ab-a67e-afba38bacfcd"></img>
 </div>
-<br>
 
 <img align="right" width="250px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/75c55cd8-2662-4f8c-bafc-155daa4ca0cc" alt="Logo MogiEco"> </img>
 
