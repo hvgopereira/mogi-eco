@@ -11,10 +11,6 @@
    }
 }
 
-// REGISTER FORM
-
-// Register Form
-
 const form = document.getElementById("form");
 const username = document.getElementById("username");
 const email = document.getElementById("email");
@@ -94,17 +90,9 @@ function checkEmail(email) {
 
 
 
- // HOME - SIDEBAR
-
-const menuIcon = document.('menu-toggle');
-
-function toggleMenu() {
-   const sidebar = document.getElementById('sidebar');
-   sidebar.classList.add('active');
-}
 
 
-menuIcon.addEventListener('click', abc);
+
+// REGISTER FORM
 
 
- 
