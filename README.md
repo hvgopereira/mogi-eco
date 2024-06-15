@@ -49,7 +49,8 @@ O Mogi Eco surgiu da necessidade de criar uma ferramenta que permitisse à comun
 - **Reporte de Desastres Naturais**: Permite que os usuários relatem desastres naturais, como deslizamentos de terra, inundações e quedas de árvores, para uma resposta mais rápida das autoridades competentes.
 <br>
 
-- **Programa de Reciclagem**: O aplicativo oferece um programa de reciclagem virtual, onde os usuários podem acompanhar seu progresso na coleta e reciclagem de materiais como plástico, vidro e papel. Eles podem receber recompensas virtuais ou descontos em estabelecimentos locais participantes por seu envolvimento ativo na reciclagem. Além disso, o aplicativo fornece dicas e orientações sobre como separar corretamente os resíduos e reduzir o impacto ambiental.
+- **Programa de Pontuação**: O aplicativo MogiEco oferece um sistema de pontuação, onde os usuários podem acumular pontos ao realizar atividades como o cadastramento de árvores, participação em eventos ambientais, e a submissão de relatórios sobre questões ambientais. Esses pontos podem ser trocados por recompensas virtuais ou descontos em estabelecimentos locais parceiros. Além disso, o aplicativo fornece informações e dicas sobre práticas sustentáveis, incentivando os usuários a se engajarem ativamente na proteção do meio ambiente.
+
 <br>
 
 - **Compartilhamento de Dicas Sustentáveis**: Os usuários podem compartilhar dicas ecológicas e práticas em suas redes sociais, incentivando amigos e familiares a adotar hábitos mais sustentáveis.
