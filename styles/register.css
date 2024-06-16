@@ -54,7 +54,7 @@ body {
 .text-greet > h1 {
    font-family: "Poppins", sans-serif;
    font-size: 3rem;
-   font-weight: 900;
+   font-weight: 700;
 }
 
 .text-greet > .subtitle-greet {
