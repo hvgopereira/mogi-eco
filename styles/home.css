@@ -32,7 +32,7 @@ body {
 
 header {
    background: white;
-   padding: 1.5rem 2.2rem;
+   padding: 1.8rem 2.2rem;
    display: flex;
    align-items: center;
 
@@ -384,7 +384,7 @@ header img {
    box-shadow: 0 10px 20px 05px rgba(0, 0, 0, 0.57);
 
    background: white;
-   /* height: 20%; */
+   /* height: 18%; */
    width: 100%;
 
    position: absolute;
