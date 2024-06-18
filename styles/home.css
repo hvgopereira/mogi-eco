@@ -120,7 +120,7 @@ header img {
    height: 0;
    width: 100%;
    padding: 1.5rem 2rem;
-   transition: .3s;
+   transition: 0.4s;
    top: 65px;
 
    overflow-y: hidden;

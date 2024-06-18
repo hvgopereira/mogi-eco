@@ -1,0 +1,112 @@
+body {
+   font-size: 1.3rem;
+   font-family: "Poppins", sans-serif;
+   padding: 0rem 2.5rem;
+   overflow-x: hidden;
+   background: var(--bg-secondary);
+}
+
+.pos-all {
+   padding: 0 0.5rem;
+}
+
+.back-arrow {
+   margin-top: 2rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.back-arrow .left {
+   flex-shrink: 0;
+}
+
+.back-arrow .center {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-45%);
+}
+
+
+.back-arrow span {
+   color: #585858;
+   background: #ffffff;
+   border: 1.5px solid #3535355c;
+
+   border-radius: 30px;
+   padding: 0.8rem;
+}
+
+.back-arrow > .title-register {
+   font-family: "Inter", sans-serif;
+   font-weight: 800;
+   font-size: 2.3rem;
+   white-space: nowrap;
+
+   /* text-transform: uppercase; */
+   text-transform: capitalize;
+}
+
+/* FORM */
+
+.container {
+   /* margin-top: 10rem; */
+   height: 65vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   gap: 4.5rem;
+}
+
+form {
+}
+
+.button-wrapper {
+   display: flex;
+   gap: 3rem;
+   justify-content: center;
+   align-items: center;
+}
+
+form button, .back-link {
+   margin-top: 5.5rem;
+   border-radius: 16px;
+
+   border: none;
+   background: var(--green-primary);
+   width: 14rem;
+   height: 5rem;
+   font-size: 1.6rem;
+   color: white;
+
+   /* text-transform: uppercase; */
+   font-weight: 500;
+   font-family: "Inter";
+}
+
+.form-section {
+   display: none;
+}
+
+.form-section.active {
+   display: block;
+}
+
+.title-pass {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.title-pass .form-pass {
+   font-size: 2.7rem;
+   color: #2f8934;
+}
+
+.form-title {
+   font-family: "Inter";
+   font-size: 2.3rem;
+}
