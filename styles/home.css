@@ -170,6 +170,8 @@ header img {
    visibility: visible;
    background: white;
    width: 100%;
+
+   margin-top: 0.4rem;
    padding: 1.5rem 2rem;
    /* transition: .6s; */
    border-radius: 0 0 30px 30px;
@@ -197,8 +199,8 @@ header img {
 
 .temperature-btn {
    background: white;
-   border-radius: 10px;
-   width: 6.5rem;
+   border-radius: 15px;
+   width: 7rem;
    height: 5rem;
    z-index: -1;
 
@@ -208,16 +210,17 @@ header img {
 
    position: absolute;
    left: 2.5rem;
-   top: 10.5rem;
+   top: 11.5rem;
 
-   color: #1d431e;
+   color: #1c421d;
    font-weight: 600;
 
    box-shadow: 0 2px 12px 05px rgba(0, 0, 0, 0.274);
 }
 
 .fa-sun {
-   margin-left: 0.5rem;
+   margin-left: 0.8rem;
+   /* margin: auto; */
    font-size: 2.2rem;
 }
 
@@ -235,7 +238,8 @@ header img {
 
    position: absolute;
    right: 2.5rem;
-   top: 10.5rem;
+   top: 11.5rem;
+
 
    box-shadow: 0 2px 12px 05px rgba(0, 0, 0, 0.274);
 
@@ -397,10 +401,14 @@ header img {
    justify-content: center;
    align-items: center;
 
+   cursor: none;
+
+
 }
 
 .nav-bottom {
    /* margin-top: 4rem; */
+   cursor: none;
 
    display: flex;
    align-items: center;
@@ -412,9 +420,13 @@ header img {
 
 .fa-house {
    font-size: 2.6rem;
+   cursor: none;
+
 }
 
 .fa-camera {
+   cursor: none;
+
    margin-bottom: 4rem;
    font-size: 3.5rem;
    box-shadow: 0 5px 12px 05px rgba(2, 59, 9, 0.388);
@@ -425,6 +437,8 @@ header img {
 }
 
 .fa-user {
+   cursor: none;
+
    font-size: 2.6rem;
 }
 
