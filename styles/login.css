@@ -92,8 +92,9 @@ input[type="password"] {
    font-weight: 600;
 
    width: 100%;
-   padding: 1.5rem;
+   padding: 1.8rem;
    margin-top: 0.8rem;
+   font-size: 1.4rem;
    border: 2px solid #c2c2c2;
    border-radius: 5px;
    box-sizing: border-box;
@@ -202,7 +203,6 @@ input[type="password"] {
    font-size: 1.4rem;
    font-weight: 800;
    color: #777777;
-   cursor: pointer;
 }
 
 .checkbox-remember input[type="checkbox"] {

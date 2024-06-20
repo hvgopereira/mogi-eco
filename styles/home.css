@@ -222,6 +222,8 @@ header img {
    margin-left: 0.8rem;
    /* margin: auto; */
    font-size: 2.2rem;
+   animation: rotateSun 5s infinite normal;
+   /* animation-delay: 2s; */
 }
 
 
@@ -442,4 +444,19 @@ header img {
    font-size: 2.6rem;
 }
 
+
+@keyframes rotateSun {
+   0% {
+      transform: rotateZ(0deg);
+   }
+   50% {
+      transform: rotateZ(180deg) scale(1.1);
+   }
+   70% {
+      transform: rotateZ(0deg);
+   }
+   100% {
+      transform: rotateZ(0deg);
+   }
+}
 

@@ -1,5 +1,5 @@
-// REGISTER FORM
-
+// TOGGLE PASSWORD FUNCTION
+ 
  function togglePassword(id, icon) {
    const input = document.getElementById(id);
    if (input.type === "password") {
@@ -10,6 +10,10 @@
        icon.textContent = 'visibility_off';
    }
 }
+
+// /TOGGLE PASSWORD FUNCTION
+
+// REGISTER FORM - VALIDAÇÃO FORMULÁRIO
 
 const form = document.getElementById("form");
 const username = document.getElementById("username");
@@ -62,11 +66,6 @@ function checkInputs() {
    }
 
  }
-
-
-
-
-
 
 function errorInput(input, message) {
    const formItem = input.closest(".form-content");
