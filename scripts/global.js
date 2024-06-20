@@ -87,11 +87,6 @@ function checkEmail(email) {
    );
  }
 
-
-
-
-
-
 // REGISTER FORM
 
 
