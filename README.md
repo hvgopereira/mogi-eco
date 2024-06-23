@@ -4,6 +4,7 @@
  <img align="right" max-width="300px" width="300px" src="https://github.com/hvgopereira/mogi-eco/assets/162385532/f86337f2-3663-4afb-bcba-c8fb5cf45b66"> </img>
 </div>
 
+
 ##
 
 > **Nota:** Este repositório é melhor visualizado no modo escuro. Você pode alterar o tema do GitHub clicando no ícone do seu perfil no canto superior direito e selecionando "Theme settings".
