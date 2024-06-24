@@ -6,7 +6,7 @@
 
 ##
 
-> **Nota:** Este repositório é melhor visualizado no modo escuro. Você pode alterar o tema do GitHub clicando no ícone do seu perfil no canto superior direito e selecionando "Theme settings".
+> <h6> Nota: Este repositório é melhor visualizado no modo escuro. Você pode alterar o tema do GitHub clicando no ícone do seu perfil no canto superior direito e selecionando "Theme settings".</h6>
 
 <h5 align="center"> Projeto iniciado em Junho/2024</h5>
 
