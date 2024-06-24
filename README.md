@@ -14,7 +14,7 @@
 
 <br>
 
- <h5 align="center"><strong> O foco central do projeto é o desenvolvimento visual da idéia <br> </strong>(Desenvolvido em Html, Css e JavaScript por melhor conhecimento, poderá tornar-se um app atráves do Cordova entre outros).</h5>
+ <h5 align="center"><strong> O foco central do projeto é o desenvolvimento visual da idéia <br> </strong>(Inicialmente desenvolvido em Html, Css e JavaScript).</h5>
 
 ##
 <div align="center">
