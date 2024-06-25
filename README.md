@@ -92,6 +92,7 @@ Estou sempre aberto a contribuições e melhorias no projeto Mogi Eco! Se você 
 5. Abra um Pull Request explicando suas alterações e por que elas devem ser incorporadas.
 
 ### Ou entre em contato:
+  📩hugopereira.contato@gmail.com
 <br>
  <section align="">
   <a target="_blank href="https://x.com/hvgopereira"><img width="128px" src="https://img.shields.io/badge/-Twitter-212121?style=for-the-badge&logo=X&logoColor=white""></img></a>
