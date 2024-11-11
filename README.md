@@ -77,6 +77,7 @@ Uma das ideias para o Mogi Eco é estabelecer parcerias com lojas locais e empre
 - **Troca de Pontos:** Esses pontos poderão ser trocados por cupons de desconto em lojas parceiras, incentivando a comunidade a se envolver ainda mais com o meio ambiente.
 - **Benefícios:** Além de contribuir para um ambiente mais saudável, os usuários terão a chance de economizar em produtos e serviços de empresas que apoiam a causa ambiental.
 
+
 <br>
 
 ## Contribuição
